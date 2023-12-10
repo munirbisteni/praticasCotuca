@@ -1,0 +1,5 @@
+/aero-pecas/node_modules
+/aero-pecas/build
+/backEnd/node_modules
+/backEnd/build
+/backEnd/.env

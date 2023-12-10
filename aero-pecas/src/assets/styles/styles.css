@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('./login-page.css');
+@import url('./index-page.css');
+@import url('./cadastro-page.css');
+@import url('./listagem-page.css');
+body{
+    margin:0;
+    font-family: 'Noto Sans', sans-serif;
+}
+body * {
+    box-sizing: border-box;
+}
+
+#footer{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+}
+.button-back{
+    text-decoration: none;
+    width: 100%;
+    padding: 16px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color:#2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+    font-weight: 800;
+    font-size: 20pt;
+}

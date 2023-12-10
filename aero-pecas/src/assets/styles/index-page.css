@@ -1,0 +1,57 @@
+.right-option{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.left-option{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.option-index{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color:#2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+    text-align: center;
+    text-decoration: none;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.option-index:hover {
+    width: 105%;
+    height: 105%;
+    background: #2b134b;
+    color: #00ff88;
+    /* Adicione outros estilos de foco e hover conforme necessário */
+  }
+.wrapper-option{
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: auto;
+    background:#2f2841;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
